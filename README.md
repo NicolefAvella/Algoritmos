@@ -17,5 +17,5 @@ CMD ["python", "/rutascuadriculadas.py"]
 
 
 Comandos para ejecutar programa:
-docker build -t algoritmo .
-docker run algoritmo
+1. docker build -t algoritmo .
+2. docker run algoritmo
