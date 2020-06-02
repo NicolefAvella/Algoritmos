@@ -16,8 +16,8 @@ COPY ./rutascuadriculadas.py /rutascuadriculadas.py
 CMD ["python", "/rutascuadriculadas.py"] 
 
 3. Para ejercicio #3
-COPY ./covid.py /covid.py
-CMD ["python", "/covid.py"] 
+COPY ./covid19.py /covid19.py
+CMD ["python", "/covid19.py"] 
 
 Comandos para ejecutar programa:
 1. docker build -t algoritmo .
