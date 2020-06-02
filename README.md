@@ -2,9 +2,9 @@
 Algoritmos desarrollados con python
 
 
-1. Ejercicio 1: Hallar el siguiente numero a 40755 que sea triangular, pentagonal y hexagonal
-2. Ejercicio 2: Hallar rutas posibles para cuadricula 20x20 
-
+1. Hallar el siguiente numero a 40755 que sea triangular, pentagonal y hexagonal
+2. Hallar rutas posibles para cuadricula 20x20 
+3. Hallar la probabilidad de tener covid19 con sintomas severos (estadisticas 01/06/2020 Colombia)
 
 Dockerfile:
 1. Para ejercicio #1 
@@ -15,6 +15,9 @@ CMD ["python", "/tripenhex.py"]
 COPY ./rutascuadriculadas.py /rutascuadriculadas.py
 CMD ["python", "/rutascuadriculadas.py"] 
 
+3. Para ejercicio #3
+COPY ./covid.py /covid.py
+CMD ["python", "/covid.py"] 
 
 Comandos para ejecutar programa:
 1. docker build -t algoritmo .
